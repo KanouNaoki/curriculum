@@ -36,7 +36,7 @@ public class Task1_1 {
 
         // ⑥変数 hogeInt の値を表示
 
-        System.out.println("int型 = hogeInt = " + 100);
+        System.out.println( + 100);
 
         // ⑦下記の処理について、何をしているのかコメントを記入してください
         //　変数 hogeString　を表示する
@@ -45,6 +45,6 @@ public class Task1_1 {
 
         // ⑧変数 hogeDouble の値を表示
 
-        System.out.println("double型 = hogedouble = " + "合格");
+        System.out.println(hogeDouble);
     }
 }
