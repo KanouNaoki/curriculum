@@ -17,8 +17,6 @@ public class Study {
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsから呼び出した値を設定してください。
          */
-    	Fruits fruits = new Fruits();
-    	FruitsConstants fruitsConstants = new FruitsConstants();
-    	fruits.printFruits(fruitsConstants.FRUITS_LEMON_04,fruitsConstants.FRUITS_COUNT_20);
+    Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04,FruitsConstants.FRUITS_COUNT_20);
     }
 }
