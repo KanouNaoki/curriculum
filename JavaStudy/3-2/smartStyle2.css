@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) {
+    header {
+    width: 300px;
+    }
+    .lightblue {
+    width: 100px;
+    }
+    .yellow {
+    width: 125px;
+    }
+    .blue{
+    width: 125px;
+    }
+    .pink{
+    width: 75px;
+    }
+    .red{
+    width: 200px;
+    }
+    footer {
+    width: 300px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+header {
+    width: 150px;
+}
+.lightblue{
+    width: 150px;
+    float: none;
+}
+.yellow{
+      width: 150px;
+}
+.blue{
+    width: 150px;
+}
+.pink{
+    width: 150px;
+    float: none;
+}
+.red{
+    width: 150px;
+    float: none;
+}
+footer {
+    width: 150px;
+}
+.center{
+    float: none;
+}
+}
