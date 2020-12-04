@@ -1,0 +1,52 @@
+@media screen and (max-width: 479px) {
+.top{
+    width: 200px;
+    height: 200px;
+}
+
+.box{
+    height: 160px;
+    width: 60px;
+    left: 70px;
+}
+.mini-box1{
+    top: 10px;
+    left: 10px;
+}
+.mini-box2{
+    top: 60px;
+    left: 10px;
+}
+.mini-box3{
+    top: 110px;
+    left: 10px;
+}
+.left{
+    height: 100px;
+    width: 200px;
+    float: none;
+}
+.right{
+    height: 200px;
+    width: 200px;
+    float: none;
+}
+.right-box1{
+    width: 130px;
+    top: 20px;
+    left: 30px;
+}
+.right-box2{
+    width: 130px;
+    top: 75px;
+    left: 30px;
+}
+.right-box3{
+    width: 130px;
+    top: 130px;
+    left: 30px;
+}
+footer{
+    width: 200px;
+}
+}
