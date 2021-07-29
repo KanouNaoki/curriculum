@@ -32,10 +32,12 @@ public class EmployeeService {
 	/// プリペアドステートメントはここで記載済み
 	// 問② 入力された値で、UPDATEする文
 	/** ・SQL UPDATE文 */
+	//ログインタイムを表示させている、idに比例して更新
 	private static final String SQL_UPDATE = "UPDATE Employee_table  SET  login_time = ? WHERE Employee_table.id = ?";
 
 	// 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
 	/** ・SQL SELECT文 */
+	//idとパスを入力したときに選択
 	private static final String SQL_SELECT = "SELECT *  FROM Employee_table WHERE Employee_table.id = ? and Employee_table.password = ?";
 
 	EmployeeBean employeeDate = null;
@@ -70,7 +72,7 @@ public class EmployeeService {
 			// 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
 			preparedStatement.setString(1, login_time);
 			preparedStatement.setString(2, id);
-			// 問⑤ UPDATEを実行する文を記述
+			// 問⑤ UPDATEを実行する文を記述　確定
 			preparedStatement.executeUpdate();
 
 			/*
@@ -82,7 +84,7 @@ public class EmployeeService {
 			preparedStatement.setString(1, id);
 			preparedStatement.setString(2, password);
 
-			// SQLを実行。実行した結果をresultSetに格納。
+			// SQLを実行。実行した結果をresultSetに格納。確定して実行
 			resultSet = preparedStatement.executeQuery();
 
 			while (resultSet.next()) {

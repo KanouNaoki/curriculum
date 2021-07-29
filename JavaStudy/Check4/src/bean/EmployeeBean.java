@@ -40,6 +40,7 @@ public class EmployeeBean {
 
 	public String getLogin_Time() {
 		return Login_Time;
+
 	}
 
 	public void setComment(String Comment) {
