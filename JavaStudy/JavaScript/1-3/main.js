@@ -1,5 +1,5 @@
 let a = 15;
-if(a  === 10){
+if(a != 10){
     console.log(a);
 }
 
@@ -9,7 +9,7 @@ else {
 console.log(b);
 }
 let x =10;
-if (x >= 10 && x <= 20) {
+if (x >= 10 && x < 20) {
     console.log("成功です");
 }else  {
     console.log('不合格');
