@@ -67,7 +67,7 @@ public class Account implements UserDetails {
 	protected Account() {
 	}
 
-	// コンストラクタ
+	// コンストラクタ インスタンス火とほぼ同時
 	public Account(String username, String password, String mailAddress) {
 		this.username = username;
 		this.password = password;
